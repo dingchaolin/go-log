@@ -1,0 +1,9 @@
+我是错误goroutine 1 [running]:
+runtime/debug.Stack(0xc, 0x0, 0x0)
+	/usr/local/Cellar/go/1.9.2/libexec/src/runtime/debug/stack.go:24 +0xa7
+runtime/debug.PrintStack()
+	/usr/local/Cellar/go/1.9.2/libexec/src/runtime/debug/stack.go:16 +0x22
+test.Test()
+	/Users/chaolinding/go-log/src/test/test.go:18 +0x106
+main.main()
+	/Users/chaolinding/go-log/src/main.go:13 +0x20
